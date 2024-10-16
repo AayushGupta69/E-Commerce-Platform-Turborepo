@@ -1,6 +1,9 @@
 {
   "name": "@e-commerce-platform/database",
   "version": "0.0.0",
+  "exports": {
+    "./client": "./src/index.ts"
+  },
   "devDependencies": {
     "@types/node": "^22.7.5",
     "prisma": "^5.21.0"
