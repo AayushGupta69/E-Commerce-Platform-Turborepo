@@ -1,0 +1,14 @@
+{
+  "name": "@e-commerce-platform/schemas",
+  "version": "1.0.0",
+  "main": "dist/index.js",
+  "exports": {
+    ".": "./src/index.ts"
+  },
+  "dependencies": {
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@e-commerce-platform/typescript-config": "workspace:*"
+  }
+}
