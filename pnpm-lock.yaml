@@ -21,7 +21,7 @@ importers:
   apps/backend:
     dependencies:
       '@e-commerce-platform/database':
-        specifier: workspace:^
+        specifier: workspace:*
         version: link:../../packages/database
       dotenv:
         specifier: ^16.4.5
