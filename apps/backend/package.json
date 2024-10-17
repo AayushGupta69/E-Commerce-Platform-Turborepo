@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "build": "esbuild ./src/index.ts --bundle --platform=node --outdir=dist",
+    "build": "esbuild ./src/index.ts --bundle --platform=node --outdir=dist --minify",
     "start": "node dist/index.js",
     "start:dev": "nodemon dist/index.js",
     "dev": "pnpm run build && pnpm run start:dev"
