@@ -1,7 +1,9 @@
 import express from "express";
+import "dotenv/config";
 
 const app = express();
+const port = process.env.PORT || 3002;
 
-app.listen(3002, () => {
-  console.log("Backend started on port 3002");
+app.listen(port, () => {
+  console.log("Backend started on port", port);
 });
